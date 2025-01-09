@@ -1,0 +1,56 @@
+{
+
+  "name": "myproject",
+
+  "version": "1.0.0",
+
+  "description": "vendingmachine dengan esp32",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "start": "nodemon index.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "author": "",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "@serialport/parser-readline": "^13.0.0",
+
+    "axios": "^1.7.7",
+
+    "bcrypt": "^5.1.1",
+
+    "body": "^5.1.0",
+
+    "body-parser": "^1.20.3",
+
+    "cors": "^2.8.5",
+
+    "express": "^4.21.1",
+
+    "install": "^0.13.0",
+
+    "mqtt": "^5.10.1",
+
+    "mysql": "^2.18.1",
+
+    "nodemon": "^3.1.7",
+
+    "parser": "^0.1.4",
+
+    "recharts": "^2.13.3",
+
+    "serialport": "^13.0.0"
+
+  }
+
+}
+
